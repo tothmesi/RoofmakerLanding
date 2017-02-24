@@ -1,0 +1,51 @@
+﻿body {
+    position: relative;
+    padding-top: 54px;
+    margin: 0;
+}
+
+.jumbotron {
+    background-image: url(images/jumbotron-img-light.jpg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+    .jumbotron h1 {
+        padding-bottom: 50px;
+        font-weight: 400;
+        color: #163341;
+    }
+
+.lead {
+    font-weight: 400;
+}
+
+.card-title span {
+    padding-right: 5px;
+}
+
+#download {
+    background-color: #d1dce2;
+    padding-top: 150px;
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+#email {
+    width: 300px;
+}
+
+#about {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#appstore-icon {
+    width: 200px;
+}

@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="roofmaker.css" type="text/css">
+</head>
+
+<body data-spy="scroll" data-target="#main-navbar" data-offset="150">
+
+    <nav class="navbar bg-faded navbar-fixed-top navbar-light" >
+        <div class="navbar-brand">
+            Roofmaker
+        </div>
+        <ul class="nav navbar-nav" id="main-navbar" role="tablist">
+            <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#download" class="nav-link">Download The App</a></li>
+        </ul>
+        <form class="form-inline float-xs-right">
+            <input class="form-control" type="email" placeholder="Email">
+            <input class="form-control" type="text" placeholder="Password">
+            <button class="btn btn-success btn-primary" type="button" data-toggle="modal" data-target="#myModal">Login</button>
+        </form>
+    </nav>
+
+    <div class="jumbotron" id="home">
+        <h1 class="display-3">Roofmaker</h1>
+        <p class="lead">Seems impossible to remember all the rules of roof covering? You need immediate answers for technical questions?</p>
+        <p class="lead">Get our Roofmaker app for free!</p>
+        <hr class="my-2">
+        <h6>Want to know more? Join our mailing list!</h6>
+
+        <form class="form-inline">
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon1">@</span>
+                <input id="email" class="form-control" type="email" placeholder="Email" />
+            </div>
+            <a class="btn btn-primary btn-md " href="#" role="button">Sign up</a>
+        </form>
+    </div>
+
+    <div class="container" id="about">
+        <div class="row" >
+            <h1>Features</h1>
+            <p class="lead">Roofmaker helps architects to design, build and audit roof constructions by collecting geometrical details and main rules of roof covering in an easily accessible way. </p>
+            <br />
+        </div>
+
+        <div class="card-deck-wrapper">
+            <div class="card-deck">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="images/card-tiles.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title"><span><i class="fa fa-university" aria-hidden="true"></i></span>Roof covering</h4>
+                            <p class="card-text">Informations about roof tiles and roof sheets including geometry and required roof pitch. Collection of the main rules of roofing. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="images/card-thermal.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title"><span><i class="fa fa-thermometer-half" aria-hidden="true"></i></span>Thermal analysis</h4>
+                            <p class="card-text">Calculate the main thermical parameters of the most commonly used layers and construction detailes using drag 'n drop</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="images/card-construction.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title"><span><i class="fa fa-bomb" aria-hidden="true"></i></span>Building diagnostics</h4>
+                            <p class="card-text">Collection of common problems with roof constructions and checklists for inspecting the reasons of flooding</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div  class="container-fluid" id="download">
+        <div class="row">
+            <h2>Download the app</h2>
+            <p>Download the Roofmaker app right now and get 1 month premium user access for free!</p>
+            <p><a href=""><img id="appstore-icon" src="images/appstore.png" /></a></p>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">Tessék, egy cica!</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="https://www.rspca.org.uk/webContent/staticImages/SectionImages/Buying-a-kitten-banner.jpg" width="550" />
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+
+</body>
+</html>
